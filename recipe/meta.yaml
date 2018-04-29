@@ -24,13 +24,13 @@ build:
 requirements:
   build:
     - r-base
-    - r-backports
+    - r-backports  >=1.1.0
     - posix                # [win]
     - {{native}}toolchain  # [win]
     - gcc                  # [not win]
   run:
     - r-base
-    - r-backports
+    - r-backports  >=1.1.0
     - libgcc  # [not win]
 
 test:
