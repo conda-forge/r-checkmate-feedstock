@@ -16,14 +16,16 @@ package was written in C to minimize any worries about execution time overhead.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-checkmate-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-checkmate-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-checkmate-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-checkmate-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-checkmate-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-checkmate-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-checkmate-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-checkmate-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-checkmate-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-checkmate-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-checkmate-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-checkmate-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-checkmate/badges/version.svg)](https://anaconda.org/conda-forge/r-checkmate)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-checkmate/badges/downloads.svg)](https://anaconda.org/conda-forge/r-checkmate)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--checkmate-green.svg)](https://anaconda.org/conda-forge/r-checkmate) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-checkmate.svg)](https://anaconda.org/conda-forge/r-checkmate) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-checkmate.svg)](https://anaconda.org/conda-forge/r-checkmate) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-checkmate.svg)](https://anaconda.org/conda-forge/r-checkmate) |
 
 Installing r-checkmate
 ======================
