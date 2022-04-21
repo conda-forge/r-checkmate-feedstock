@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/checkmate_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/checkmate/checkmate_{{ version }}.tar.gz
-  sha256: 0dc25b0e20c04836359df1885d099c6e4ad8ae0e585a9e4107f7ea945d9c6fa4
+  sha256: b784dd5163a0350d084ef34882d9781373839dedeaa9a8b8e6187d773d0d21c6
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -45,8 +45,7 @@ about:
   home: https://github.com/mllg/checkmate
   license: BSD_3_clause
   license_file: LICENSE
-  summary: Tests and assertions to perform frequent argument checks. A substantial part of the
-    package was written in C to minimize any worries about execution time overhead.
+  summary: Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead.
   license_family: BSD
 
 extra:
