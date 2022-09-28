@@ -45,10 +45,12 @@ test:
 
 about:
   home: https://github.com/mllg/checkmate
-  license: BSD_3_clause
-  license_file: LICENSE
+  license: BSD-3-clause
   summary: Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead.
   license_family: BSD
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/BSD_3_clause
+    - LICENSE
 
 extra:
   recipe-maintainers:
