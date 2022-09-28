@@ -3,7 +3,7 @@ About r-checkmate
 
 Home: https://github.com/mllg/checkmate
 
-Package license: BSD_3_clause
+Package license: BSD-3-clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-checkmate-feedstock/blob/main/LICENSE.txt)
 
