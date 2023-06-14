@@ -8,7 +8,7 @@ About r-checkmate
 
 Home: https://github.com/mllg/checkmate
 
-Package license: BSD-3-clause
+Package license: BSD-3-Clause
 
 Summary: Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead.
 About r-checkmate
@@ -16,7 +16,7 @@ About r-checkmate
 
 Home: https://github.com/mllg/checkmate
 
-Package license: BSD-3-clause
+Package license: BSD-3-Clause
 
 Summary: Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead.
 
