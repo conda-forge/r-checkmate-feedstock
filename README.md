@@ -3,6 +3,7 @@ About r-checkmate-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-checkmate-feedstock/blob/main/LICENSE.txt)
 
+
 About r-checkmate
 -----------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/mllg/checkmate
 Package license: BSD-3-Clause
 
 Summary: Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead.
+
 About r-checkmate
 -----------------
 
